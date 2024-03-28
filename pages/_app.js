@@ -82,8 +82,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <title>Ariadna García Rodríguez</title>
-        <meta name="Ariadna García Rodríguez" content="Ariadna García / B.B.P. Bethancourt" />
+        <title>Eyra Harbar</title>
+        <meta name="Eyra Harbar" content="Eyra Harbar" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

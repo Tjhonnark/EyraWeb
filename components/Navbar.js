@@ -14,47 +14,31 @@ export default function Navbar() {
   return (
     <nav className={styles.header}>
       <div className={styles.container}>
-        <div className={styles.logoA}>
-          <h1>Ariadna García Rodríguez (BBP Bethancourt)</h1>
-        </div>
         <div className={styles.line}></div>
         <div className={styles.navbar}>
           <div className={styles.item}>
-            <Link href="/">
-              <i className="bi bi-house-fill"></i>Inicio
-            </Link>
+            <a href="/">Inicio
+            </a>
           </div>
           <div className={styles.item}>
-            <Link href="/quien">
-              <i className="bi bi-people-fill"></i>¿Quién?
-            </Link>
+            <a href="#demi">
+              De mí
+            </a>
           </div>
           <div className={styles.item}>
-            <Link href="/haceres">
-              <i class="bi bi-pencil-fill"></i>Haceres
-            </Link>
+            <a href="#publicaciones">
+              Publicaciones
+            </a>
           </div>
           <div className={styles.item}>
-            <Link href="/trayectoria">
-              <i class="bi bi-pencil-fill"></i>Trayectoria
-            </Link>
+            <a href="#fotos">
+              Fotos
+            </a>
           </div>
           <div className={styles.item}>
-            <Link href="/tallerCultura">
-              <Image
-                className={styles.group}
-                src="/icon.png"
-                alt="Ariadna Garcia"
-                width={20}
-                height={20}
-              />
-              Taller Cultura
-            </Link>
-          </div>
-          <div className={styles.item}>
-            <Link href="/contacto">
-              <i className="bi bi-envelope-paper-fill"></i>Contacto
-            </Link>
+            <a href="#contacto">
+              Contacto
+            </a>
           </div>
         </div>
       </div>

@@ -22,19 +22,6 @@
 .container a:hover {
   color: rgb(0, 0, 0);
 }
-/* LINK PAGES */
-.linkPages {
-  display: flex;
-  flex-flow: column wrap;
-  gap: 0.5rem;
-}
-.linkPages a {
-  color: aliceblue;
-  text-decoration: none;
-}
-.linkPages a i {
-  margin-right: 5px;
-}
 /* LINK SECTION */
 .linkSection {
   display: flex;
@@ -45,33 +32,8 @@
   color: aliceblue;
   text-decoration: none;
 }
-/* LINK PRODUCTS */
-.linkProduct {
-  width: 300px;
-  height: 250px;
-  display: flex;
-  flex-flow: row wrap;
-  gap: 0.5rem;
-}
-.linkProduct h4 {
-  width: 100%;
-}
-.items {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: flex-start;
-  gap: 0.5rem;
-}
-.items a {
-  color: aliceblue;
-  text-decoration: none;
-}
-
-.group {
-  margin-left: -0.2rem;
-  margin-right: 0.2rem;
+.linkSection a i {
+  margin-right: 5px;
 }
 
 /* FORM */
@@ -99,7 +61,6 @@
   text-shadow: #000 3px 2px;
   font-size: 2rem;
   font-weight: bold;
-  transition: all 0.3s ease 0s;
 }
 .webapp_title:hover {
   color: #fff;

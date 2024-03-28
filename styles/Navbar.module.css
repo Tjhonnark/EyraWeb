@@ -29,11 +29,12 @@
 
 .line {
   width: 60%;
-  border-top: 1px solid rgba(0, 0, 0, 0.418);
+  /*border-top: 1px solid rgba(0, 0, 0, 0.418);*/
 }
 
 .navbar {
   width: 70%;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   gap: 3rem;
@@ -50,16 +51,17 @@
 /* From uiverse.io by @WhiteNervosa */
 .item a {
   font-size: 18px;
-  color: #000000;
-  /* #e1e1e1 */
+  color: #000; /* #e1e1e1 */
   text-decoration: none;
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-weight: 500;
   cursor: pointer;
   position: relative;
   border: none;
   background: none;
-  text-transform: none;
+  text-transform: uppercase;
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 400ms;
   transition-property: color;
@@ -67,7 +69,7 @@
 
 .item a:focus,
 .item a:hover {
-  color: #585858;
+  color: #cecece;
 }
 
 .item a:focus:after,
