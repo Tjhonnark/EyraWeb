@@ -33,7 +33,8 @@
 }
 
 .navbar {
-  width: 70%;
+  background-color: red;
+  width: 80%;
   margin-top: 1rem;
   display: flex;
   justify-content: center;
