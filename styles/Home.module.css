@@ -193,7 +193,6 @@
 }
 
 .poemas {
-  background-color: red;
   padding: 0rem 2.5rem;
   display: flex;
   flex-flow: row wrap;
@@ -205,6 +204,7 @@
   padding: 0rem 2.5rem;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -212,6 +212,7 @@
   padding: 0rem 2.5rem;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   gap: 1rem;
 }
 
