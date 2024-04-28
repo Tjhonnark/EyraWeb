@@ -113,7 +113,7 @@ function Home({ scrollUpFunction, styleScrollUp, styleBurger }) {
               className={styles.imageS1}
               src="/poema.jpg"
               alt=""
-              width={350}
+              width={325}
               height={500}
             />
           </div>

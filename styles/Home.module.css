@@ -193,9 +193,11 @@
 }
 
 .poemas {
+  background-color: red;
   padding: 0rem 2.5rem;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -214,7 +216,7 @@
 }
 
 .column1 {
-  width: 400px;
+  width: 375px;
   height: 500px;
   display: flex;
   flex-flow: column wrap;
@@ -223,13 +225,13 @@
 }
 
 .column2 {
-  width: 350px;
+  width: 325px;
   height: 500px;
   background-color: #000;
 }
 
 .column3 {
-  width: 400px;
+  width: 375px;
   height: 500px;
   display: flex;
   flex-flow: column wrap;
