@@ -17,28 +17,20 @@ export default function Navbar() {
         <div className={styles.line}></div>
         <div className={styles.navbar}>
           <div className={styles.item}>
-            <a href="/">Inicio
+            <a href="/">Primera línea
             </a>
           </div>
           <div className={styles.item}>
-            <a href="#demi">
-              De mí
-            </a>
+            <a href="#aconfesiondeparte">A confesión de parte</a>
           </div>
           <div className={styles.item}>
-            <a href="#publicaciones">
-              Publicaciones
-            </a>
+            <a href="#lapizypapel">Lápiz y papel</a>
           </div>
           <div className={styles.item}>
-            <a href="#fotos">
-              Fotos
-            </a>
+            <a href="#lavitrina">La vitrina</a>
           </div>
           <div className={styles.item}>
-            <a href="#contacto">
-              Contacto
-            </a>
+            <a href="#escribaaqui">Escriba aquí</a>
           </div>
         </div>
       </div>

@@ -2,18 +2,129 @@
   
   background-color: #fff;
 }
+
 /* SECTION 1 */
 .section1 {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.section1 h3 {
+  background-color: rgb(83, 105, 22);
+  color: #fff;
+  width: 100%;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.container {
+  margin-top: 3rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  color: #f8517b;
+  font-size: 6rem;
+}
+
+/*SECTION 2*/
+.section2 {
+  color: #000;
+  margin-top: 6rem;
+}
+
+.section2 h3 {
+  background-color: rgb(83, 105, 22);
+  color: #fff;
+  width: 100%;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.containerS2 {
+  padding: 2rem 6rem 6rem 6rem;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+.imageS3 {
+  width: 600px;
+  height: 500px;
+  background-color: #fff;
+}
+
+.description {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: justify;
+}
+
+.description p {
+  color: #000;
+  font-size: large;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.description a {
+  width: 100%;
+  text-align: center;
+}
+
+/* SECTION 3*/
+.section3 {
+  background-color: #000;
+  margin-top: 55px;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.s3_item {/*#bb257a*/
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 2rem;
+}
+.s3_item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.3s ease 0s;
+}
+.s3_item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* SECTION 4 */
+.section4 {
   height: 550px;
-  margin: 1rem 0 0 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-start;
-  z-index: 1;
+  z-index: 0;
 }
 
-.section1:before {
+.section4:before {
+  margin-top: 55px;
   content: "";
   width: 100%;
   height: 550px;
@@ -28,6 +139,19 @@
       rgba(0, 0, 0, 0.726) 35%,
       rgba(0, 0, 0, 0) 100%
     );*/
+  z-index: 1;
+}
+.section4 h3 {
+  background-color: rgb(83, 105, 22);
+  color: #fff;
+  width: 100%;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
   z-index: 1;
 }
 
@@ -51,154 +175,88 @@
   width: 100%;
 }
 
-.poema {
-  display: flex;
-  flex-flow: column wrap;
-  gap: 0.5rem;
-}
-
-.text1_a1_s1 h2 {
-  width: 100%;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.text1_a1_s1 p {
-  width: 100%;
-  font-size: 1.3rem;
-  text-align: start;
-}
-
-/* From uiverse.io */
-.text1_a1_s1 a {
-  margin-bottom: 2rem;
-  padding: 1.3em 3em;
-  font-size: 12px;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  font-weight: 500;
+/* SECTION 5 */
+.section5 {
   color: #000;
-  background-color: #fff;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.116);
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  outline: none;
-}
-
-.text1_a1_s1 a:hover {
-  background-color: #fff;
-  box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.116);
-  color: #000;
-  transform: translateY(-7px);
-}
-
-.text1_a1_s1 a:active {
-  transform: translateY(-1px);
-}
-
-/* SECTION 2*/
-.section2 {
-  background-color: #000;
-  padding: 2rem 0;
-  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 10rem;
+  padding: 0rem 2.5rem;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
-}
-.s2_item {
-  display: flex;
-  flex-flow: column wrap;
-  padding: 4rem 3rem;/*#bb257a*/
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-.s2_item:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-  transition: all 0.3s ease 0s;
-}
-.s2_item a {
-  color: #fff;
-  font-size: 2rem;
-  text-decoration: none;
-}
-.s2_item i {
-  font-size: 3rem;
+  gap: 10rem;
 }
 
-/*SECTION 3*/
-.section3 {
-  padding: 2rem 6rem 6rem 6rem;
-  color: #000;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.title{
+.section5 h2 {
   width: 100%;
-  margin: 2rem 0;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.title h3 {
-  width: 100%;
-  font-size: 4rem;
-  text-align: center;
-  font-weight: 500;
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-
-.imageS3 {
-  width: 600px;
-  height: 500px;
-  background-color: #fff;
-}
-
-.description {
-  display: flex;
-  flex-flow: row wrap;
-  text-align: justify;
-}
-
-.description p {
-  color: #000;
-  font-size: large;
-  align-items: center;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-/*SECTION 4*/
-.section4 {
-  color: #000;
-  text-align: center;
-  padding: 2rem 0;
-  display: flex;
-  flex-flow: column wrap;
-  gap: 1rem;
-}
-
-.section4 h2 {
-  width: 100%;
-  color: #000;
   text-align: center;
   margin-bottom: 3rem;
   font-size: 3rem;
+}
+
+.poemas {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+.cuentos {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+.infantil {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+.column1 {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.column2 {
+  width: 350px;
+  height: 500px;
+  background-color: #000;
+}
+
+.column3 {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.poema {
+  background-color: #fff;
+  padding: 1.5rem;
+}
+
+/*SECTION 6*/
+.section6 {
+  color: #fff;
+  text-align: center;
+  margin: 0 0 4rem 0;
+  padding: 0rem 0;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
+
+.section6 h2 {
+  background-color: rgb(83, 105, 22);
+  color: #fff;
+  width: 100%;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -216,14 +274,14 @@
 .uno .cuadro1 {
   width: 500px;
   height: 300px;
-  background-color: #000;
+  background-color: #a0a0a0;
 }
 
 .uno .cuadro2 {
   width: 300px;
   height: 300px;
   padding: 1rem 1rem;
-  background-color: #000;
+  background-color: #a0a0a0;
   text-align: start;
   display: flex;
   flex-flow: row wrap;
@@ -233,7 +291,7 @@
 .uno .cuadro3 {
   width: 300px;
   height: 300px;
-  background-color: #000;
+  background-color: #a0a0a0;
 }
 
 .dos {
@@ -248,7 +306,7 @@
   width: 300px;
   height: 300px;
   padding: 1rem 1rem;
-  background-color: #fff;
+  background-color: #a0a0a0;
   text-align: start;
   display: flex;
   flex-flow: row wrap;
@@ -258,58 +316,13 @@
 .dos .cuadro2 {
   width: 500px;
   height: 300px;
-  background-color: #fff;
+  background-color: #a0a0a0;
 }
 
 .dos .cuadro3 {
   width: 300px;
   height: 300px;
-  background-color: #fff;
-}
-
-/* SECTION 5 */
-.section5 {
-  color: #000;
-  padding: 4rem 2.5rem;
-  display: flex;
-  flex-flow: row wrap;
-  gap: 1rem;
-}
-
-.section5 h2 {
-  width: 100%;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 3rem;
-  font-size: 3rem;
-}
-
-.column1 {
-  width: 400px;
-  height: 500px;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.column2 {
-  width: 350px;
-  height: 500px;
-  background-color: #fff;
-}
-
-.column3 {
-  width: 400px;
-  height: 500px;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-}
-
-.poema {
-  background-color: #fff;
-  padding: 1.5rem;
+  background-color: #a0a0a0;
 }
 
 @media only screen and (max-width: 450px) {
