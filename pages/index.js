@@ -12,7 +12,7 @@ import styles from "../styles/Home.module.css";
 
 function Home({ scrollUpFunction, styleScrollUp, styleBurger }) {
   const size = UseWindowSize();
-  /* console.log(size.width) */
+  console.log(size.width)
 
   return (
     <div className={styles.body}>
@@ -21,7 +21,7 @@ function Home({ scrollUpFunction, styleScrollUp, styleBurger }) {
         <h3>Primera línea</h3>
         <div className={styles.container}>
           <Image
-            className={styles.image}
+            className={styles.imageS1}
             src="/Imagen1.jpg"
             alt=""
             width={450}
@@ -35,7 +35,7 @@ function Home({ scrollUpFunction, styleScrollUp, styleBurger }) {
         <div className={styles.containerS2}>
           <div className={styles.imageS3}>
             <Image
-              className={styles.imageS1}
+              className={styles.imageS2}
               src="/mi.jpg"
               alt=""
               width={600}
@@ -64,11 +64,12 @@ function Home({ scrollUpFunction, styleScrollUp, styleBurger }) {
       <section id="lapizypapel" className={styles.section4}>
         <h3>Lápiz y papel</h3>
         <Image
-          className={styles.imageS1}
+          className={styles.imageS4}
           src="/FotoInicio.jpg"
           alt=""
           width={1400}
           height={550}
+          objectFit="cover"
         />
         <div className={styles.text1_a1_s1}>
           <h1>Eyra Harbar</h1>
@@ -110,7 +111,7 @@ function Home({ scrollUpFunction, styleScrollUp, styleBurger }) {
           </div>
           <div className={styles.column2}>
             <Image
-              className={styles.imageS1}
+              className={styles.imageS5A}
               src="/poema.jpg"
               alt=""
               width={325}
@@ -144,10 +145,10 @@ function Home({ scrollUpFunction, styleScrollUp, styleBurger }) {
           </div>
           <div className={styles.column2}>
             <Image
-              className={styles.imageS1}
+              className={styles.imageS5A}
               src="/poema.jpg"
               alt=""
-              width={350}
+              width={325}
               height={500}
             />
           </div>
@@ -196,10 +197,10 @@ function Home({ scrollUpFunction, styleScrollUp, styleBurger }) {
           </div>
           <div className={styles.column2}>
             <Image
-              className={styles.imageS1}
+              className={styles.imageS5C}
               src="/poema.jpg"
               alt=""
-              width={350}
+              width={325}
               height={500}
             />
           </div>

@@ -1,5 +1,4 @@
 .body {
-  
   background-color: #fff;
 }
 
@@ -32,6 +31,11 @@
   font-size: 6rem;
 }
 
+.imageS1 {
+  width: 100%;
+  height: auto;
+}
+
 /*SECTION 2*/
 .section2 {
   color: #000;
@@ -60,11 +64,9 @@
   gap: 1rem;
 }
 
-
-.imageS3 {
-  width: 600px;
-  height: 500px;
-  background-color: #fff;
+.imageS2 {
+  width: 100%;
+  height: auto;
 }
 
 .description {
@@ -96,7 +98,8 @@
   flex-flow: row wrap;
   justify-content: space-evenly;
 }
-.s3_item {/*#bb257a*/
+.s3_item {
+  /*#bb257a*/
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -141,6 +144,11 @@
     );*/
   z-index: 1;
 }
+
+.imageS4 {
+  width: 100%;
+}
+
 .section4 h3 {
   background-color: rgb(83, 105, 22);
   color: #fff;
@@ -153,10 +161,6 @@
   font-weight: weight;
   font-style: normal;
   z-index: 1;
-}
-
-.imageS1 {
-  z-index: 0;
 }
 
 .text1_a1_s1 {
@@ -218,29 +222,28 @@
 
 .column1 {
   width: 375px;
-  height: 500px;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   justify-content: space-around;
+  gap: 1rem;
 }
 
 .column2 {
   width: 325px;
-  height: 500px;
-  background-color: #000;
 }
 
 .column3 {
   width: 375px;
-  height: 500px;
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
 }
 
 .poema {
-  background-color: #fff;
+  background-color: #BE736B; /*#962a2a*/
   padding: 1.5rem;
 }
 
@@ -333,56 +336,16 @@
 }
 
 @media only screen and (max-width: 450px) {
-  .section1 {
-    display: none;
-  }
 
-  .sectionMini1 {
-    margin: 0rem 0 0 0;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
+  .poemas {
+    padding: 0rem 1rem;
   }
-
-  .maquinaDeEscribir {
-    color: #fff;
-    width: 70%;
-    margin-top: 4rem;
-    text-align: center;
-    font-size: 2rem;
-    position: absolute;
-    z-index: 1;
+  
+  .cuentos {
+    padding: 0rem 1rem;
   }
-
-  .section2 {
-    padding: 8rem 3rem 8rem 3rem;
-  }
-
-  .portada {
-    margin-top: 3rem;
-  }
-
-  .section3 {
-    display: none;
-  }
-
-  .sectionMini3 {
-    height: 525px;
-    margin: 0rem 0 0 0;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-  }
-
-  .text1_a1_s3 {
-    color: #000;
-    width: 400px;
-    height: 70%;
-    margin-left: 0rem;
-    margin-bottom: 0rem;
+  
+  .infantil {
+    padding: 0rem 1rem;
   }
 }
