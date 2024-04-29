@@ -27,13 +27,9 @@
 }
 
 .container h1 {
+  width: 25rem;
   color: #f8517b;
   font-size: 6rem;
-}
-
-.imageS1 {
-  width: 100%;
-  height: auto;
 }
 
 /*SECTION 2*/
@@ -243,7 +239,7 @@
 }
 
 .poema {
-  background-color: #BE736B; /*#962a2a*/
+  background-color: #be736b; /*#962a2a*/
   padding: 1.5rem;
 }
 
@@ -336,15 +332,21 @@
 }
 
 @media only screen and (max-width: 450px) {
+  /*SECTION 1*/
+  .imageS1 {
+    width: 100%;
+    height: auto;
+  }
 
+  /*SECTION 5*/
   .poemas {
     padding: 0rem 1rem;
   }
-  
+
   .cuentos {
     padding: 0rem 1rem;
   }
-  
+
   .infantil {
     padding: 0rem 1rem;
   }
