@@ -33,6 +33,7 @@ export default function Navbar() {
             <Link href="#escribaaqui">Escriba aquí</Link>
           </div>
         </div>
+        <Burger />
       </div>
     </nav>
   );

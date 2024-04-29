@@ -12,7 +12,7 @@ import styles from "../styles/Home.module.css";
 
 function Home({ scrollUpFunction, styleScrollUp, styleBurger }) {
   const size = UseWindowSize();
-  console.log(size.width)
+  //console.log(size.width)
 
   return (
     <div className={styles.body}>
