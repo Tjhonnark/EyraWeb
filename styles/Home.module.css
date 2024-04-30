@@ -36,6 +36,9 @@
 .section2 {
   color: #000;
   margin-top: 6rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .section2 h3 {
@@ -52,7 +55,8 @@
 }
 
 .containerS2 {
-  padding: 2rem 6rem 6rem 6rem;
+  width: 80%;
+  padding: 2rem 0 6rem 0;
   display: flex;
   flex-flow: column wrap;
   align-items: center;

@@ -28,15 +28,26 @@ export default function Burger2({ menuOpen, setMenuOpen }) {
           </Link>
         </li>
         <li className={styles.menuItem} onClick={handleMenuItemClick}>
-          <Link href="#primeralinea">
-            <i className="bi bi-house-fill"></i>
-            Primera línea
+          <Link href="#aconfesiondeparte">
+            <i className="bi bi-people-fill"></i>A confesión de parte
           </Link>
         </li>
         <li className={styles.menuItem} onClick={handleMenuItemClick}>
-          <Link href="#primeralinea">
-            <i className="bi bi-house-fill"></i>
-            Primera línea
+          <Link href="#lapizypapel">
+          <i class="bi bi-pencil-fill"></i>
+            Lápiz y papel
+          </Link>
+        </li>
+        <li className={styles.menuItem} onClick={handleMenuItemClick}>
+          <Link href="#lavitrina">
+          <i class="bi bi-images"></i>
+            La vitrina
+          </Link>
+        </li>
+        <li className={styles.menuItem} onClick={handleMenuItemClick}>
+          <Link href="#escribaaqui">
+            <i className="bi bi-envelope-paper-fill"></i>
+            Escriba aquí
           </Link>
         </li>
         {/* Resto de tus items del menú */}

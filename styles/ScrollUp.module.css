@@ -10,7 +10,7 @@
     border-radius: 50%;
     position: fixed;
     bottom: 2rem;
-    right: 3rem;
+    right: 1.5rem;
     z-index: 2;
     /* ANIMATION */
     animation: PopUp 1s forwards;
