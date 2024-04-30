@@ -1,9 +1,17 @@
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 /* STYLES */
 import styles from "../styles/Burger.module.css";
 
 export default function Burger({ styleBurger }) {
+  const [menuOpen, setMenuOpen] = useState(false); // Agrega estado para controlar si el menú está abierto
+
+  const handleToggleMenu = (e) => {
+    e.preventDefault(); // Prevenir la acción predeterminada del evento de clic
+    setMenuOpen(!menuOpen); // Cambiar el estado del menú cada vez que se hace clic en el botón
+  };
+
   return (
     <div>
       <div className={styles.menu}>
@@ -11,6 +19,8 @@ export default function Burger({ styleBurger }) {
           id="menu__toggle"
           className={styles.menu__toggle}
           type="checkbox"
+          checked={menuOpen} // Usa el estado para determinar si el menú está abierto
+          onChange={handleToggleMenu} // Usa una función para cambiar el estado del menú
         />
         <label
           className={styleBurger ? styles.menu__btn : styles.menu__btn2}
@@ -28,7 +38,7 @@ export default function Burger({ styleBurger }) {
             height={100}
           />
           <li>
-            <Link className={styles.menu__item} href="/">
+            <Link className={styles.menu__item} href="#primeralinea">
               <i className="bi bi-house-fill"></i>
               Primera línea
             </Link>

@@ -22,19 +22,12 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     addEventListener('scroll', (event) => {
       var scroll = document.documentElement.scrollTop;
-      console.log(scroll)
       if (scroll < 600) {
         setStyleScrollUp(true);
       } else {
         setStyleScrollUp(false);
       }
       
-      setStyleBurger(true);
-      if (scroll < 4300) {
-        
-      } else {
-        
-      }
     });
   }, [])
 

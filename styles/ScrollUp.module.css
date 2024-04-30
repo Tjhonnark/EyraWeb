@@ -9,7 +9,7 @@
     border: none;
     border-radius: 50%;
     position: fixed;
-    top: 0.5rem;
+    bottom: 2rem;
     right: 3rem;
     z-index: 2;
     /* ANIMATION */
@@ -18,10 +18,10 @@
   
   @keyframes PopUp {
     0% {
-      transform: translateY(0);
+      transform: translateY(70%);
     }
     100% {
-      transform: translateY(70%);
+      transform: translateY(0);
     }
   }
   .scrollUp:hover {

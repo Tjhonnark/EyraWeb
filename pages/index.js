@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ScrollUp from "../components/ScrollUp";
 import Burger from "../components/Burger";
+import Burger2 from "../components/Burger2";
 import UseWindowSize from "../components/UseWindowSize";
 /* STYLES */
 import styles from "../styles/Home.module.css";
@@ -14,9 +15,13 @@ function Home({ scrollUpFunction, styleScrollUp, styleBurger }) {
   const size = UseWindowSize();
   //console.log(size.width)
 
+  // Burger2
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className={styles.body}>
       <Navbar />
+      <Burger2 menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <section id="primeralinea" className={styles.section1}>
         <h3>Primera línea</h3>
         <div className={styles.container}>
@@ -253,7 +258,7 @@ function Home({ scrollUpFunction, styleScrollUp, styleBurger }) {
         scrollUpFunction={scrollUpFunction}
         styleScrollUp={styleScrollUp}
       />
-      <Burger styleBurger={styleBurger} />
+      {/*<Burger styleBurger={styleBurger} />*/}
       <Footer
         page="/"
         section1="Primera línea"
