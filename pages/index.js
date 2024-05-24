@@ -23,14 +23,14 @@ function Home({ scrollUpFunction, styleScrollUp, styleBurger }) {
       <Navbar />
       <Burger2 menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <section id="primeralinea" className={styles.section1}>
+        <Image
+          className={styles.imageS1}
+          src="/Imagen1.jpg"
+          alt=""
+          width={650}
+          height={1100}
+        />
         <div className={styles.container}>
-          <Image
-            className={styles.imageS1}
-            src="/Imagen1.jpg"
-            alt=""
-            width={650}
-            height={1100}
-          />
           <h1>Eyra Harbar</h1>
           <h3>Escritora</h3>
           <h4>Poesía | Narrativa | Literatura infantil y juvenil</h4>

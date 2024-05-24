@@ -22,13 +22,13 @@ export default function Burger2({ menuOpen, setMenuOpen }) {
       <div className={styles.logo}>Eyra Harbar</div>
       <ul className={`${styles.menu} ${menuOpen ? styles.open : ""}`}>
         <li className={styles.menuItem} onClick={handleMenuItemClick}>
-          <Link href="#primeralinea">
+          <Link href="/">
             <i className="bi bi-house-fill"></i>
             Primera línea
           </Link>
         </li>
         <li className={styles.menuItem} onClick={handleMenuItemClick}>
-          <Link href="#aconfesiondeparte">
+          <Link href="/aconfesiondeparte">
             <i className="bi bi-people-fill"></i>A confesión de parte
           </Link>
         </li>
