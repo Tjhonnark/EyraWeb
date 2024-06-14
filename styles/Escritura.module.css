@@ -1,0 +1,63 @@
+/*SECTION 2*/
+.section2 {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  z-index: 0;
+}
+
+.container {
+  margin: 4rem 8rem 0 8rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.description {
+  width: 35rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: justify;
+}
+
+.description h3 {
+  color: #ff304b;
+  font-size: 3rem;
+}
+
+.line {
+  background-color: #ff304b;
+  width: 35rem;
+  height: 1rem;
+  margin-bottom: 2rem;
+}
+
+.description p {
+  color: #000;
+  font-size: large;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container p {
+  color: #000;
+  font-size: large;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container h4 {
+  width: 100%;
+}
+
+.imageS2 {
+  width: 25rem;
+  height: auto;
+}

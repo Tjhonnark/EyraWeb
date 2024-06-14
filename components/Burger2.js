@@ -33,21 +33,21 @@ export default function Burger2({ menuOpen, setMenuOpen }) {
           </Link>
         </li>
         <li className={styles.menuItem} onClick={handleMenuItemClick}>
-          <Link href="#lapizypapel">
+          <Link href="/escritura">
           <i class="bi bi-pencil-fill"></i>
-            Lápiz y papel
+            Escritura
           </Link>
         </li>
         <li className={styles.menuItem} onClick={handleMenuItemClick}>
-          <Link href="#lavitrina">
+          <Link href="/poesiaycuentos">
           <i class="bi bi-images"></i>
-            La vitrina
+            Poesía y Cuentos
           </Link>
         </li>
         <li className={styles.menuItem} onClick={handleMenuItemClick}>
-          <Link href="#escribaaqui">
+          <Link href="/galeria">
             <i className="bi bi-envelope-paper-fill"></i>
-            Escriba aquí
+            Galería
           </Link>
         </li>
         {/* Resto de tus items del menú */}

@@ -23,37 +23,62 @@ function Aconfesiondeparte({ scrollUpFunction, styleScrollUp, styleBurger }) {
       <Navbar />
       <Burger2 menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <section id="aconfesiondeparte" className={styles.section2}>
-        <h3>A confesión de parte</h3>
+        <Image
+          className={styles.imageS2}
+          src="/FotoInicio.jpg"
+          alt=""
+          width={600}
+          height={500}
+        />
+        <div className={styles.container}>
+          <h3>A confesión de parte</h3>
+        </div>
         <div className={styles.containerS2}>
-          <div className={styles.imageS3}>
-            <Image
-              className={styles.imageS2}
-              src="/FotoInicio.jpg"
-              alt=""
-              width={600}
-              height={500}
-            />
-          </div>
           <div className={styles.description}>
             <p>
-              Nací en Bocas del Toro, Mar Caribe panameño, en el año 1972. De mí
-              diré que guardo las palabras antes del primer café de la mañana.
-              Acróbata, tragafuegos y funámbula del abecedario después de él.
-              Dama festiva conmigo misma y contralto en los escenarios, así como
-              Whitman se canta y celebra. A tiempo completo y en aguas abiertas:
-              poeta, dos brazadas después: narradora. Leer da la libertad para
-              moverse de lugar en cualquier momento y escribir convoca hallar la
-              alquimia perfecta para transformar la vida de quien lee, habitando
-              todas las voces y todas las generaciones, colgados de hilos y
-              tramas unidos en lo escrito. Por acá me quedo, cuaderno en mano.
+              Eyra Harbar nació en Bocas del Toro, Mar Caribe panameño, en 1972.
+              Es autora de poemarios, minificción y cuento corto. También cuenta
+              con obra en literatura infantil y juvenil. Su trabajo está
+              recogido en antologías nacionales e internacionales. Como parte de
+              su historia, a los 23 años se convierte en la tercera mujer en
+              ganar el Premio Esther María Osses del Instituto Panameño de
+              Estudios Laborales (IPEL) con el poemario <q>Acopio de piezas</q>
+              (1995), suceso que merecerá la entrega del galardón por parte de
+              la histórica líder sindical Marta Matamoros. En los años 90 logra
+              el primer lugar en los concursos Demetrio Herrera Sevillano con
+              <q>Donde habita el escarabajo</q> y Gustavo Batista Cedeño del INAC
+              (hoy Ministerio de Cultura) con <q>Espejos</q>. <q>Paraíso quemado</q> fue
+              el Primer Premio de Poesía León A. Soto en 2013 y el poemario
+              <q>Desertores de alborada</q> gana el Primer Premio Esther María Osses
+              (IPEL) en 2015. <q>No está de más</q> es su libro de minificción
+              literaria en género cuento, publicado por Foro/taller Sagitario
+              Ediciones del escritor Enrique Jaramillo Levi. En literatura
+              infantil y juvenil ha escrito <q>Cuentos para el planeta</q> y <q>La
+              canción de la lluvia</q>, ganadores del Concurso Nacional Esther
+              María Osses de Literatura Infantil de UDELAS. <q>Autobús esperanza</q>
+              obtuvo el Concurso Nacional de Literatura Infantil y Juvenil
+              Carlos Francisco Changmarín” del Ministerio de Cultura de Panamá
+              en 2022. Recientemente, fue incluida en Desde el centro de
+              América. Miradas alternativas de nuevas cuentistas coordinada por
+              Gloria Herníquez (Penguin Random, México) y en poesía en
+              Nuestramérica es un verso, antología poética 1968-1989 coord.
+              Zyanya Mariana Mejía (FCE, Perú). También en la Trilogía poética
+              de las mujeres en Hispanoamérica: Pícaras, místicas y rebeldes
+              coordinada por Leticia Luna, Maricruz Patiño y Aurora Saavedra
+              (UNAM, México), así como la antología de mujeres poetas panameñas
+              La nueva canción de Afrodita, coordinada por Rafael Ruiloba, y
+              Minificcionario, antología de microcuento en Panamá Panamá
+              realizada por Enrique Jaramillo Levi, entre otras. Es abogada y se
+              ha dedicado a las áreas del derecho administrativo, cooperación y
+              asuntos internacionales, así como al género y desarrollo.
             </p>
             <a href="EHarbar_Literatura 2024.pdf" target="blank">
-              Reseña en literatura
+              Reseña completa
             </a>
           </div>
         </div>
       </section>
-      
+
       <ScrollUp
         scrollUpFunction={scrollUpFunction}
         styleScrollUp={styleScrollUp}

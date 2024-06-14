@@ -1,54 +1,73 @@
 /*SECTION 2*/
 .section2 {
-    color: #000;
-    margin-top: 6rem;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-  }
-  
-  .section2 h3 {
-    background-color: rgb(83, 105, 22);
-    color: #fff;
-    width: 100%;
-    font-size: 2.5rem;
-    text-align: center;
-    font-weight: 500;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-  }
-  
-  .containerS2 {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-  }
-  
-  .imageS2 {
-    width: 100vw;
-    height: auto;
-  }
-  
-  .description {
-    display: flex;
-    flex-flow: row wrap;
-    text-align: justify;
-  }
-  
-  .description p {
-    color: #000;
-    font-size: large;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .description a {
-    width: 100%;
-    text-align: center;
-  }
+  margin-bottom: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  z-index: 0;
+}
+.section2:before {
+  content: "";
+  width: 550px;
+  height: 900px;
+  position: absolute;
+  /*background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.607) 60%
+  );
+  /*background-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.726) 35%,
+      rgba(0, 0, 0, 0) 100%
+    );*/
+  z-index: 1;
+}
+
+.container {
+  width: 100vw;
+  margin: 5rem 10rem 0 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  position: absolute;
+}
+
+.container h3 {
+  color: #f8517b;;
+  font-size: 4rem;
+}
+
+.imageS2 {
+  width: 100vw;
+  height: auto;
+}
+
+.containerS2 {
+  margin: 2rem 6rem;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.description {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: justify;
+}
+
+.description p {
+  color: #000;
+  font-size: large;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.description a {
+  width: 100%;
+  text-align: center;
+}

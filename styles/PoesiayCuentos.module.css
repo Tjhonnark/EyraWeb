@@ -1,0 +1,94 @@
+/* SECTION 3*/
+.section3 {
+  background-color: #000;
+  margin-top: 55px;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.s3_item {
+  /*#bb257a*/
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 2rem;
+}
+.s3_item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.3s ease 0s;
+}
+.s3_item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* SECTION 5 */
+.section5 {
+  color: #000;
+  margin-top: 6rem;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10rem;
+}
+
+.section5 h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+
+.poemas {
+  padding: 0rem 2.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cuentos {
+  padding: 0rem 2.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.infantil {
+  padding: 0rem 2.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.column1 {
+  width: 375px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.column2 {
+  width: 325px;
+}
+
+.column3 {
+  width: 375px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.poema {
+  background-color: #be736b; /*#962a2a*/
+  padding: 1.5rem;
+}
