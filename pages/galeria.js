@@ -33,7 +33,15 @@ function Galeria({ scrollUpFunction, styleScrollUp, styleBurger }) {
           height={500}
         />
         <div className={styles.uno}>
-          <div className={styles.cuadro1}></div>
+          <div className={styles.cuadro1}>
+            <Image
+              className={styles.image}
+              src="/galeria/Eyra Harbar Autobiografia.jpg"
+              alt=""
+              width={600}
+              height={500}
+            />
+          </div>
           <div className={styles.cuadro2}>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
@@ -42,7 +50,15 @@ function Galeria({ scrollUpFunction, styleScrollUp, styleBurger }) {
               maxime in quo distinctio! Cum, vitae?
             </p>
           </div>
-          <div className={styles.cuadro3}></div>
+          <div className={styles.cuadro3}>
+            <Image
+              className={styles.image}
+              src="/galeria/Eyra Taboga.jpg"
+              alt=""
+              width={600}
+              height={500}
+            />
+          </div>
         </div>
         <div className={styles.dos}>
           <div className={styles.cuadro1}>
@@ -53,8 +69,18 @@ function Galeria({ scrollUpFunction, styleScrollUp, styleBurger }) {
               maxime in quo distinctio! Cum, vitae?
             </p>
           </div>
-          <div className={styles.cuadro2}></div>
-          <div className={styles.cuadro3}></div>
+          <div className={styles.cuadro2}>
+            <Image
+              className={styles.image}
+              src="/galeria/Festival de la Montaña.jpg"
+              alt=""
+              width={600}
+              height={500}
+            />
+          </div>
+          <div className={styles.cuadro3}>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusantium officia provident maxime eligendi minima non aut quam, accusamus error amet, dolorum ab iste architecto? Et veniam laudantium vero provident.</p>
+          </div>
         </div>
         <div className={styles.tres}>
           <div className={styles.cuadro1}></div>
